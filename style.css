@@ -1,0 +1,32 @@
+.list__body {
+  inline-size: 200px;
+  display: inline-block;
+}
+.list__body__item {
+  list-style: none;
+  inline-size: 100%;
+  position: relative;
+  display: inline-block;
+}
+
+.sub-list {
+  list-style: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  width: 200px;
+  display: inline-block;
+}
+
+.list__body--wrap {
+  display: flex;
+}
+
+.sublist {
+  margin-top: 40px;
+  display: none;
+}
+
+.sublist.active {
+  display: block;
+}
